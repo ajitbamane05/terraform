@@ -1,0 +1,7 @@
+terraform {
+  backend "s3" {
+    bucket = "terraform-tf-state-bucket-ajit"
+    key    = "uat/terrraform.tfstate"
+    region = "us-east-1"
+  }
+}
